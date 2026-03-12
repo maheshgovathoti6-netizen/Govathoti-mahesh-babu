@@ -30,7 +30,36 @@ font-size:18px;
 nav a:hover{
 color:yellow;
 }
+nav{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:20px;
+}
 
+.nav-right{
+margin-left:30px;
+}
+
+.search-box{
+padding:6px 10px;
+border-radius:20px;
+border:none;
+}
+
+.signin-btn{
+padding:6px 14px;
+margin-left:10px;
+border:none;
+background:#007BFF;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.signin-btn:hover{
+background:#0056b3;
+}
 .container{
 padding:40px;
 }
@@ -73,10 +102,17 @@ margin-top:40px;
 <header>
 <h1>Mahesh Tech Solutions</h1>
 <nav>
+
 <a href="#">Home</a>
 <a href="#">About</a>
 <a href="#">Projects</a>
 <a href="#">Contact</a>
+
+<div class="nav-right">
+<input type="text" placeholder="Search..." class="search-box">
+<button class="signin-btn">Sign In</button>
+</div>
+
 </nav>
 </header>
 
