@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <title>Mahesh Personal Website</title>
 
 <style>
 
 body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
 text-align:center;
-font-family:Arial;
-background:#f2f2f2;
+}
+
+header{
+background:#222;
+color:white;
+padding:20px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+padding:40px;
 }
 
 img{
+width:180px;
+height:180px;
 border-radius:50%;
-width:200px;
-height:200px;
-object-fit:cover;
+margin-top:20px;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+background:#007BFF;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+footer{
+background:#222;
+color:white;
+padding:15px;
+margin-top:40px;
 }
 
 </style>
@@ -25,14 +67,31 @@ object-fit:cover;
 
 <body>
 
-<h1>Mahesh Personal Website</h1>
+<header>
+<h1>Mahesh Babu</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Projects</a>
+<a href="#">Contact</a>
+</nav>
+</header>
 
-<img src="Screenshot 2026-03-02 193820.png">
+<div class="container">
 
-<p><b>Python Learner | Future AI Engineer</b></p>
+<img src="https://via.placeholder.com/180">
 
-<p>Welcome to my personal website.</p>
+<h2>Hello, I am Mahesh 👋</h2>
+
+<p>I am learning Web Development, Python, AI and Digital Marketing.</p>
+
+<button>Contact Me</button>
+
+</div>
+
+<footer>
+<p>© 2026 Mahesh Website</p>
+</footer>
 
 </body>
-
 </html>
